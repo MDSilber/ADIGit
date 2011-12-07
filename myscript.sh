@@ -1,4 +1,5 @@
 #!/bin/bash
 
-gcc helloworld.c -o helloworld
+gcc -v helloworld.c -o helloworld
+echo "Compiling helloworld.c"
 ./helloworld
